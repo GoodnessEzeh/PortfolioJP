@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/favicon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Goodness Ezeh | Web Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>グッドネス　エゼ</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">私について</a></li>
+        <li><a href="#skills" class="nav-link">技術力</a></li>
+        <li><a href="#projects" class="nav-link">最近の作品</a></li>
+        <li><a href="#contact" class="nav-link">連絡先</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+      </button>
+    </nav>
+    
+    <p> </p>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="assets/images/goodness.png"
+        alt="Goodness-Ezeh"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">私について</h2>
+        <p class="bio-text">
+          岩手県在住のフルスタックエンジニアです。
+        </p>
+      </div>
+    </section>
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>私についての詳細</h2>
+      <p>
+        私はかつて、学部生時代にプログラミング言語Rを使ったことがあります。それは2016年、卒業論文に取り組んでいるときのことで、
+        アルビノラットの20以上の試験サンプルから収集したデータから、ある植物の薬効を解析していました。
+        いくつかの科学的段階を含む巨大なプロジェクトでしたが、ソフトウェアから得られる満足感と充実感の大きさに驚かされました。
+        2ヵ月かけて収集した何十ものデータが、たった数分のソフトで分析され、簡略化されるのを見て、ソフトウェア開発への関心が高まりました。 
+      </p>
+      <p>
+        私は、仕事を合理化・迅速化する革新的な方法を生み出し、人間の生活の質を効果的に向上させることに、より情熱を注ぐようになりました。
+        そして、その好奇心からソフトウェア開発の世界に足を踏み入れ、次世代ソフトウェアの開発に貢献し、人々の生活をより豊かにすることを目指しています。
+      </p>
+      <p>
+        コーディングをしていないときは、ブログ記事を書いて、自分の知識を技術コミュニティと共有しています。そうでなければ、日本語を勉強しているはずです。
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">技術力</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/python.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-react-native.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/c-sharp.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">最近の作品</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/calculator-app.png"
+            alt="calculator-app"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">計算機</h3>
+          <p class="project-details">
+            数字に長い算術演算をするのは時間がかかるかもしれません。でも、このアプリがあれば、ワンクリックで答えが出ます。
+          </p>
+          <a href="https://master.d3qjkuami19xwm.amplifyapp.com/" target="_blank" class="project-link">アプリ</a>
+          <a href="https://github.com/GoodnessEzeh/JS-Calculator-App" target="_blank" class="project-link">コード</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/quiz-app.png"
+            alt="quiz-app"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">クイズ・アプリ</h3>
+          <p class="project-details">
+            英語を中心とした客観的なテストの練習ができます。
+          </p>
+          <a href="https://master.d1qwpxnsdiqixi.amplifyapp.com/" target="_blank" class="project-link">アプリ</a>
+          <a href="https://github.com/GoodnessEzeh/Quiz-App" target="_blank" class="project-link">コード</a>
+        </div>
+        <div class="project-container project-card">
+            <img
+              src="assets/images/countdown-app.png"
+              alt="countdown-timer"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">秒読みタイマー</h3>
+            <p class="project-details">
+              このウェブサイトでは、iPhoneのプレゼントキャンペーンを、キャンペーン終了までの秒読みとともに宣伝しています。
+            </p>
+            <a href="https://goodness-countdown-timer.netlify.app/" target="_blank" class="project-link">アプリ</a>
+            <a href="https://github.com/GoodnessEzeh/Countdown-Timer" target="_blank" class="project-link">コード</a>
+        </div>
+        <div class="project-container project-card">
+            <img
+              src="assets/images/bulletin-board.png"
+              alt="bulletin-app"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">カード・アプリ </h3>
+            <p class="project-details">
+              カラフルなカードで読者を楽しませ、あなたの願いを伝えましょう。
+            </p>
+            <a href="https://goodness-bulletin-board.vercel.app/" target="_blank" class="project-link">アプリ</a>
+            <a href="https://github.com/GoodnessEzeh/my-bulletin-board-app" target="_blank" class="project-link">コード</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/movie-app.png"
+            alt="movie-app"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">映画・アプリ</h3>
+            <p class="project-details">
+              自宅に居ながらにして映画のチケットを手に入れることができるのに、わざわざ遠方まで出かけていく手間をかける必要はないでしょう。
+            </p>
+            <a href="https://master.diwdbq885pgxq.amplifyapp.com/" target="_blank" class="project-link">アプリ</a>
+            <a href="https://github.com/GoodnessEzeh/Movie-Seat-Booking-App" target="_blank" class="project-link">コード</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/grocery-app.png"
+            alt="grocery-list"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">食料品アプリ</h3>
+          <p class="project-details">
+            帰宅後、お店で商品を買い忘れて悲しい思いをしたことはありませんか？このアプリが解決してくれます。
+          </p>
+          <a href="https://goodness-grocery-list.netlify.app/" target="_blank" class="project-link">アプリ</a>
+          <a href="https://github.com/GoodnessEzeh/Grocery-List" target="_blank" class="project-link">コード</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>お問い合わせ</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xpzbzzrw" method="POST">
+            <div class="form-control">
+              <label for="name">名前</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="名前を入力する"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">メール</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="メールを入力する"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">メッセージ</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="メッセージを入力する"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="送り込む"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="https://goodnessezeh.medium.com/" target="_blank"
+        ><img
+          src="assets/icons/medium.png"
+          alt="Medium"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/goodnessezeh/" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/GoodnessEzeh" target="_blank"
+        ><img 
+          src="assets/icons/icons8-github.gif" 
+          alt="Github" 
+          class="socicon"
+      /></a>
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt=""
+    /></i>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2021</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="https://github.com/GoodnessEzeh" target="_blank"
+          >Goodness Ezeh</a
+        >
+      </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
